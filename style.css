@@ -1,0 +1,808 @@
+body {
+    background-color: rgb(8, 0, 51);
+    height: 1100px;
+}
+
+.sistema {
+    width: 100%;
+    height: 553px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.título {
+    position: absolute;
+    left: 40%;
+    top: 20px;
+    font-family: 'Roboto';
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    background-color: transparent;
+}
+
+.título:hover {
+    transition: 0.2s;
+    position: absolute;
+    left: 40%;
+    top: 20px;
+    font-family: 'Roboto';
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 -1px 4px rgb(255, 255, 255), 0 -2px 20px rgb(255, 255, 0), 0 -10px 30px rgb(255, 128, 0), 0 -18px 40px rgb(255, 0, 0);
+    background-color: transparent;
+}
+
+.solimagem {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 578px;
+    left: 25px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(50, 50, 50);
+}
+
+.solimagem:hover {
+    transition: 0.2s;
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 573px;
+    left: 20px;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+}
+
+.nomesol {
+    position: absolute;
+    left: 105px;
+    top: 758px;
+    font-family: Andale Mono, monospace;
+    font-size: 25px;
+    background: linear-gradient(to bottom, rgb(255, 228, 113), rgb(46, 21, 17));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(255, 228, 113);
+}
+
+.nomesol:hover {
+    transition: 0.2s;
+    position: absolute;
+    left: 100px;
+    top: 753px;
+    font-family: Andale Mono, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 -1px 4px rgb(255, 255, 255), 0 -2px 20px rgb(255, 228, 113), 0 -10px 30px rgb(46, 21, 17);
+    background-color: transparent;
+}
+
+.mercúrioimagem {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 578px;
+    left: 250px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(50, 50, 50);
+}
+
+.mercúrioimagem:hover {
+    transition: 0.2s;
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 573px;
+    left: 245px;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+}
+
+.nomemercúrio {
+    position: absolute;
+    left: 298px;
+    top: 758px;
+    font-family: Andale Mono, monospace;
+    font-size: 25px;
+    background: linear-gradient(to bottom, rgb(219, 210, 180), rgb(46, 21, 17));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(225, 214, 132);
+}
+
+.nomemercúrio:hover {
+    transition: 0.2s;
+    position: absolute;
+    left: 287px;
+    top: 753px;
+    font-family: Andale Mono, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 -1px 4px rgb(255, 255, 255), 0 -2px 20px rgb(219, 210, 180), 0 -10px 30px rgb(46, 21, 17);
+    background-color: transparent;
+}
+
+.vênusimagem {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 578px;
+    left: 475px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(50, 50, 50);
+}
+
+.vênusimagem:hover {
+    transition: 0.2s;
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 573px;
+    left: 470px;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+}
+
+.nomevênus {
+    position: absolute;
+    left: 547px;
+    top: 758px;
+    font-family: Andale Mono, monospace;
+    font-size: 25px;
+    background: linear-gradient(to bottom, rgb(255, 183, 151), rgb(46, 21, 17));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(255, 183, 151);
+}
+
+.nomevênus:hover {
+    transition: 0.2s;
+    position: absolute;
+    left: 542px;
+    top: 753px;
+    font-family: Andale Mono, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 -1px 4px rgb(255, 255, 255), 0 -2px 20px rgb(255, 183, 151), 0 -10px 30px rgb(46, 21, 17);
+    background-color: transparent;
+}
+
+.terraimagem {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 578px;
+    left: 700px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(50, 50, 50);
+}
+
+.terraimagem:hover {
+    transition: 0.2s;
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 573px;
+    left: 695px;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+}
+
+.nometerra {
+    position: absolute;
+    left: 770px;
+    top: 758px;
+    font-family: Andale Mono, monospace;
+    font-size: 25px;
+    background: linear-gradient(to bottom, rgb(170, 227, 246), rgb(46, 21, 17));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(170, 227, 246);
+}
+
+.nometerra:hover {
+    transition: 0.2s;
+    position: absolute;
+    left: 765px;
+    top: 753px;
+    font-family: Andale Mono, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 -1px 4px rgb(255, 255, 255), 0 -2px 20px rgb(170, 227, 246), 0 -10px 30px rgb(46, 21, 17);
+    background-color: transparent;
+}
+
+.marteimagem {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 578px;
+    left: 925px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(50, 50, 50);
+}
+
+.marteimagem:hover {
+    transition: 0.2s;
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 573px;
+    left: 920px;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+}
+
+.nomemarte {
+    position: absolute;
+    left: 995px;
+    top: 758px;
+    font-family: Andale Mono, monospace;
+    font-size: 25px;
+    background: linear-gradient(to bottom, rgb(242, 141, 129), rgb(46, 21, 17));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(242, 141, 129)
+}
+
+.nomemarte:hover {
+    transition: 0.2s;
+    position: absolute;
+    left: 990px;
+    top: 753px;
+    font-family: Andale Mono, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 -1px 4px rgb(255, 255, 255), 0 -2px 20px rgb(242, 141, 129), 0 -10px 30px rgb(46, 21, 17);
+    background-color: transparent;
+}
+
+.júpiterimagem {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 828px;
+    left: 25px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(50, 50, 50);
+}
+
+.júpiterimagem:hover {
+    transition: 0.2s;
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 823px;
+    left: 20px;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+}
+
+.nomejúpiter {
+    position: absolute;
+    left: 78px;
+    top: 1010px;
+    font-family: Andale Mono, monospace;
+    font-size: 25px;
+    background: linear-gradient(to bottom, rgb(246, 217, 137), rgb(46, 21, 17));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(246, 217, 137)
+}
+
+.nomejúpiter:hover {
+    transition: 0.2s;
+    position: absolute;
+    left: 73px;
+    top: 1005px;
+    font-family: Andale Mono, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 -1px 4px rgb(255, 255, 255), 0 -2px 20px rgb(246, 217, 137), 0 -10px 30px rgb(46, 21, 17);
+    background-color: transparent;
+}
+
+.saturnoimagem {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 828px;
+    left: 250px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(50, 50, 50);
+}
+
+.saturnoimagem:hover {
+    transition: 0.2s;
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 823px;
+    left: 245px;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+}
+
+.nomesaturno {
+    position: absolute;
+    left: 307px;
+    top: 1010px;
+    font-family: Andale Mono, monospace;
+    font-size: 25px;
+    background: linear-gradient(to bottom, rgb(250, 213, 126), rgb(46, 21, 17));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(250, 213, 126)
+}
+
+.nomesaturno:hover {
+    transition: 0.2s;
+    position: absolute;
+    left: 302px;
+    top: 1005px;
+    font-family: Andale Mono, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 -1px 4px rgb(255, 255, 255), 0 -2px 20px rgb(250, 213, 126), 0 -10px 30px rgb(46, 21, 17);
+    background-color: transparent;
+}
+
+.uranoimagem {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 828px;
+    left: 475px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(50, 50, 50);
+}
+
+.uranoimagem:hover {
+    transition: 0.2s;
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 823px;
+    left: 470px;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+}
+
+.nomeurano {
+    position: absolute;
+    left: 547px;
+    top: 1010px;
+    font-family: Andale Mono, monospace;
+    font-size: 25px;
+    background: linear-gradient(to bottom, rgb(145, 212, 238), rgb(46, 21, 17));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(145, 212, 238)
+}
+
+.nomeurano:hover {
+    transition: 0.2s;
+    position: absolute;
+    left: 542px;
+    top: 1005px;
+    font-family: Andale Mono, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 -1px 4px rgb(255, 255, 255), 0 -2px 20px rgb(145, 212, 238), 0 -10px 30px rgb(46, 21, 17);
+    background-color: transparent;
+}
+
+.netunoimagem {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 828px;
+    left: 700px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(50, 50, 50);
+}
+
+.netunoimagem:hover {
+    transition: 0.2s;
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 823px;
+    left: 695px;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+}
+
+.nomenetuno {
+    position: absolute;
+    left: 765px;
+    top: 1010px;
+    font-family: Andale Mono, monospace;
+    font-size: 25px;
+    background: linear-gradient(to bottom, rgb(152, 167, 222), rgb(46, 21, 17));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(152, 167, 222)
+}
+
+.nomenetuno:hover {
+    transition: 0.2s;
+    position: absolute;
+    left: 760px;
+    top: 1005px;
+    font-family: Andale Mono, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 -1px 4px rgb(255, 255, 255), 0 -2px 20px rgb(152, 167, 222), 0 -10px 30px rgb(46, 21, 17);
+    background-color: transparent;
+}
+
+.plutãoimagem {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 828px;
+    left: 925px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(50, 50, 50);
+}
+
+.plutãoimagem:hover {
+    transition: 0.2s;
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: 823px;
+    left: 920px;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+}
+
+.nomeplutão {
+    position: absolute;
+    left: 990px;
+    top: 1010px;
+    font-family: Andale Mono, monospace;
+    font-size: 25px;
+    background: linear-gradient(to bottom, rgb(191, 191, 191), rgb(46, 21, 17));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(191, 191, 191)
+}
+
+.nomeplutão:hover {
+    transition: 0.2s;
+    position: absolute;
+    left: 985px;
+    top: 1005px;
+    font-family: Andale Mono, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 -1px 4px rgb(255, 255, 255), 0 -2px 20px rgb(191, 191, 191), 0 -10px 30px rgb(46, 21, 17);
+    background-color: transparent;
+}
+
+.soltítulo {
+    position: absolute;
+    left:47%;
+    top: 20px;
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
+    0 0 15px rgb(255, 228, 113), 0 0 30px rgb(255, 228, 113), 0 0 40px rgb(255, 228, 113), 0 0 55px rgb(255, 228, 113), 0 0 75px rgb(255, 228, 113);
+    background: transparent;
+}
+.imagemsol {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 50px;
+    left: 10px;
+}
+.soltexto {
+    position: absolute;
+    top: 125px;
+    left: 550px;
+    right: 50px;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: rgb(255, 255, 255);
+}
+
+.mercúriotítulo {
+    position: absolute;
+    left:45%;
+    top: 20px;
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
+    0 0 15px rgb(219, 210, 180), 0 0 30px rgb(219, 210, 180), 0 0 40px rgb(219, 210, 180), 0 0 55px rgb(172, 141, 104), 0 0 75px rgb(172, 141, 104);
+    background: transparent;
+}
+.imagemmercúrio {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 50px;
+    left: 10px;
+}
+.mercúriotexto {
+    position: absolute;
+    top: 125px;
+    left: 550px;
+    right: 50px;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: rgb(255, 255, 255);
+}
+
+.vênustítulo {
+    position: absolute;
+    left:46%;
+    top: 20px;
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
+    0 0 15px rgb(255, 183, 151), 0 0 30px rgb(255, 183, 151), 0 0 40px rgb(255, 183, 151), 0 0 55px rgb(255, 183, 151), 0 0 75px rgb(255, 183, 151);
+    background: transparent;
+}
+.imagemvênus {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 50px;
+    left: 10px;
+}
+.vênustexto {
+    position: absolute;
+    top: 125px;
+    left: 550px;
+    right: 50px;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: rgb(255, 255, 255);
+}
+
+.terratítulo {
+    position: absolute;
+    left:46%;
+    top: 20px;
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
+    0 0 15px rgb(170, 227, 246), 0 0 30px rgb(170, 227, 246), 0 0 40px rgb(170, 227, 246), 0 0 55px rgb(154, 219, 143), 0 0 75px rgb(154, 219, 143);
+    background: transparent;
+}
+.imagemterra {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 50px;
+    left: 10px;
+}
+.terratexto {
+    position: absolute;
+    top: 125px;
+    left: 550px;
+    right: 50px;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: rgb(255, 255, 255);
+}
+
+.martetítulo {
+    position: absolute;
+    left:45%;
+    top: 20px;
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
+    0 0 15px rgb(242, 141, 129), 0 0 30px rgb(242, 141, 129), 0 0 40px rgb(242, 141, 129), 0 0 55px rgb(133, 57, 48), 0 0 75px rgb(133, 57, 48);
+    background: transparent;
+}
+.imagemmarte {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 50px;
+    left: 10px;
+}
+.martetexto {
+    position: absolute;
+    top: 125px;
+    left: 550px;
+    right: 50px;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: rgb(255, 255, 255);
+}
+
+.júpitertítulo {
+    position: absolute;
+    left:45%;
+    top: 20px;
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
+    0 0 15px rgb(246, 217, 137), 0 0 30px rgb(246, 217, 137), 0 0 40px rgb(246, 217, 137), 0 0 55px rgb(96, 56, 59), 0 0 75px rgb(96, 56, 59);
+    background: transparent;
+}
+.imagemjúpiter {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 50px;
+    left: 10px;
+}
+.júpitertexto {
+    position: absolute;
+    top: 125px;
+    left: 550px;
+    right: 50px;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: rgb(255, 255, 255);
+}
+
+.saturnotítulo {
+    position: absolute;
+    left:45%;
+    top: 20px;
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
+    0 0 15px rgb(250, 213, 126), 0 0 30px rgb(250, 213, 126), 0 0 40px rgb(250, 213, 126), 0 0 55px rgb(250, 213, 126), 0 0 75px rgb(250, 213, 126);
+    background: transparent;
+}
+.imagemsaturno {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 50px;
+    left: 10px;
+}
+.saturnotexto {
+    position: absolute;
+    top: 125px;
+    left: 550px;
+    right: 50px;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: rgb(255, 255, 255);
+}
+
+.uranotítulo {
+    position: absolute;
+    left:46%;
+    top: 20px;
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
+    0 0 15px rgb(145, 212, 238), 0 0 30px rgb(145, 212, 238), 0 0 40px rgb(145, 212, 238), 0 0 55px rgb(145, 212, 238), 0 0 75px rgb(145, 212, 238);
+    background: transparent;
+}
+.imagemurano {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 50px;
+    left: 10px;
+}
+.uranotexto {
+    position: absolute;
+    top: 125px;
+    left: 550px;
+    right: 50px;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: rgb(255, 255, 255);
+}
+
+.netunotítulo {
+    position: absolute;
+    left:45%;
+    top: 20px;
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
+    0 0 15px rgb(152, 167, 222), 0 0 30px rgb(152, 167, 222), 0 0 40px rgb(152, 167, 222), 0 0 55px rgb(152, 167, 222), 0 0 75px rgb(152, 167, 222);
+    background: transparent;
+}
+.imagemnetuno {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 50px;
+    left: 10px;
+}
+.netunotexto {
+    position: absolute;
+    top: 125px;
+    left: 550px;
+    right: 50px;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: rgb(255, 255, 255);
+}
+
+.plutãotítulo {
+    position: absolute;
+    left:45%;
+    top: 20px;
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
+    0 0 15px rgb(191, 191, 191), 0 0 30px rgb(191, 191, 191), 0 0 40px rgb(191, 191, 191), 0 0 55px rgb(191, 191, 191), 0 0 75px rgb(191, 191, 191);
+    background: transparent;
+}
+.imagemplutão {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 50px;
+    left: 10px;
+}
+.plutãotexto {
+    position: absolute;
+    top: 125px;
+    left: 550px;
+    right: 50px;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: rgb(255, 255, 255);
+}
